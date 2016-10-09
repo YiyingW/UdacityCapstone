@@ -1,0 +1,24 @@
+This project used Python software. The libraries used for this project include:
+ * pandas
+ * matplotlib
+ * numpy
+ * scikit-learn
+ * tensorflow
+ * pickle
+
+
+There are 6 python files included in this submission:
+1. PreprocessingData.py
+	This program's function is to load in raw data, preprocess the data and pickle the resulted preprocessed data for the future use. This program has to be run before any other programs. 
+2. ImplementLR.py
+	This program's function is the implementation of Logistic regression algorithm. 
+
+3. ImplementNN.py
+	This program's function is the implementation of Neural Network algorithm. 
+
+4. ImplementRF.py
+	This program's function is the implementation of Random Forest algorithm. 
+5. ImplementGBT.py
+	This program's function is the implementation of Gradient Boosted Trees algorithm. 
+6. GBT_submit.py
+	This program's function is to train the Gradient Boosted model on the whole training dataset. Use the trained model to make predictions for test dataset. Output the prediction results to a csv file.  
